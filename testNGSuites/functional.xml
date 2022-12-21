@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MindTickle-Functional" parallel="true" thread-count="10">
+    <test name="FunctionalTests">
+        <classes>
+            <class name="functional1.CreateUpdatePet"/>
+            <class name="functional1.CreateUserArrayTest"/>
+            <class name="functional1.UpdateUserTest"/>
+        </classes>
+    </test>
+</suite>
